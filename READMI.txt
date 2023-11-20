@@ -1,0 +1,14 @@
+Per chi non l'ha fatto
+Finire i quiz che avete in piattaforma
+
+Riscaldamento
+Rivedere la lezione (anche a velocità 2x)
+Aggiornare le documentazioni con le nuove conoscenze apprese oggi di CSS3 e Bootstrap.
+Fare il quiz di Bootstrap
+
+All'azione
+Seguendo la lezione di stamattina, replicare il template del docente, oppure cambiando la palette di colori, icone, testi, immagini creare un sito a piacere (siate creativi) 
+Non vale clonare il progetto del docente e pusharlo: VI SGAMO  
+
+Caricare la repository del progetto su GitHub nella seguente maniera:
+nomeprogetto-nomeecognome per evitare omonimie

@@ -1,0 +1,186 @@
+/* *{
+    font-family: GriffinFont;
+} */
+
+
+/* PRINCIPALI FONT E COLORI */
+:root{
+    --color_y: #ffce34;
+    --color_b: #00a1dd;
+    --color_g: #56ac41;
+    --color_p: #d344ed;
+    --color_r:#d3443e;
+}
+
+@font-face{
+    font-family: GriffinFont;
+    src: url(./image/font/Griffin.TTF);
+}
+
+
+
+/* MODIFICHE NAVBAR */
+
+.txt-nav{
+    font-family: GriffinFont;
+}
+
+.img-logo{
+    height: 50px;
+    width: 200px;
+}
+
+.nav-color{
+    background-color: var(--color_y);
+}
+
+.txt-dropdown{
+    background-color: var(--color_y);
+    border-color: var(--color_g);
+}
+
+.dropdown-item:hover{
+background-color: var(--color_r);
+}
+
+.txt-item{
+    font-family:'Open Sans',sans-serif;
+}
+
+/*MODIFICHE HEADER*/
+
+.img-header{
+    width: 100wh;
+    background-image: url(/image/header.png);
+    background-attachment: fixed;
+    height: 100vh;   
+    background-size: cover;
+}
+
+.txt-header{
+    font-family: GriffinFont;
+}
+
+/* MODIFICHE CARD */
+
+.row-card{
+    background-color: var(--color_r);
+}
+
+.section-card{
+    background-color: var(--color_g);
+}
+
+.txt-card{
+    font-family:'Open Sans',sans-serif;
+}
+
+.card{
+    border: solid 6px var(--color_g);
+}
+
+.card-img-2{
+    border: none;
+}
+
+.card:hover{
+    border: solid 6px var(--color_y);
+    box-shadow: 0 20px 18px 11px rgba(0, 0, 0, 0.568);
+    transform: scale(1.1);
+    transition: 0.4s;
+}
+
+.img-card{
+    width: 100wh;
+    background-image: url(/image/header.png);
+    background-size: cover;
+}
+
+.btn-card{
+    font-family: GriffinFont;
+    color: var(--color_b);
+    background-color: var(--color_p);
+    padding: 8px 15px;
+    border: 2px solid var(--color_y);
+    box-shadow: 4px 4px var(--color_r);
+    
+    
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+/*SEZIONE CAROSELLO */
+
+.txt-carousel{
+    font-family: GriffinFont;
+    background-color: var(--color_g);
+}
+.txt-trama{
+    font-family: GriffinFont;
+    background-color: var(--color_g)
+}
+
+.bg-trama{ 
+    background-color: var(--color_b);
+
+}
+
+.bg-section-carousel{
+    background:  url('./image/section_carousel.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.font-2{
+    font-family:'Open Sans', sans-serif ;
+    size: 400;
+}
+.bg-blur{
+    background-color: transparent;
+    backdrop-filter: blur(5px);
+    height: 100%;
+    width: 90%;
+}
+
+
+/* SEZIONE FOOTER */
+
+.footer-color{
+    background-color: var(--color_y);
+}
+
+.link-social{
+    color: var(--color_r);
+    
+}
+.link-social:hover{
+    color: var(--color_g);
+}
+.fa-lg {
+    font-size: 2.25em;
+    vertical-align: -0.075em;
+}
+
+.fox{
+    width: 150px;
+}
+.txt-footer{
+    font-family: GriffinFont;
+}
+
+/* MEDIA QUERIES */
+
+/* MEDIA QUERIES */
+@media screen and (max-width: 300px) {
+    
+    .mobile-logo{
+        margin-left: 10px;
+    }
+
+    .mobile.trama{
+        font-size: none;
+        width: 328px;
+    }
+
+    
+}
